@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #e5ebf0;
+        }
+        form {
+            width: 300px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 5px 8px rgba(243, 27, 135, 0.1);
+        }
+        formcontroller {
+            padding: 10px 0;
+        }
+        input[type="text"], input[type="password"] {
+            width: 35%;
+            padding: 8px;
+            margin: 5px 0;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        label {
+            font-size:large
+            display: block;
+            margin-bottom: 5px;
+            width: 80px;;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <div class="formcontroller">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+        </div>
+        <div class="formcontroller">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+        </div>
+        <div class="formcontroller">
+            <button type="submit">LOGIN</button>
+        </div>   </form>
+</body>
+</html>
