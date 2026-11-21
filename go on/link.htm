@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/submit" method="post">
+        <fieldset>
+            <legend>Name</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age">
+        </fieldset>
+        <fieldset>
+            <legend>Authentication</legend>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+        </fieldset>
+        <fieldset>
+            <legend>Preferences</legend>
+            <label for="M">Male</label>
+            <input type="radio" id="M" name="sex" value="other">
+            <label for="F">Female</label>
+            <input type="radio" id="F" name="sex" value="other">
+            <label for="O">Other</label>
+            <input type="radio" id="O" name="sex" value="other">
+            <hr>
+            <label for="khmer">khmer</label>
+            <input
+             type="checkbox"
+             value="chinese"
+             id="chinese"
+             name="language">
+            </label>
+            <label for="english">English</label>
+            <input
+             type="checkbox"
+             value="khmer"
+             id="khmer"
+             name="language">
+            </lable>
+            <label for="chinese">chinese</label>
+            <input
+             type="checkbox"
+             value="english"
+             id="english"
+             name="language">
+            </lable>
+             <br />
+             <hr>
+      <textarea name="longtext" id="longtext" rows="30" cols="20">
+        Hello here is we use for apply long text
+      </textarea>
+      <br />
+      <select name="shift" id="">
+        <option value="morning">Morning</option>
+        <option value="morningafternoon" selected>Morning-Afternoon</option>
+        <option value="Afternoon">Afternoon</option>
+        <option value="Evening">Evening</option>
+      </select>
+      <br />
+      <br />
+      <label for="phonenumber">Phone Number</label>
+      <input id="phonenumber" type="tel" pattern="(\+855|0)[0-9]{8,9}" />
+      <button type="submit">LOGIN</button>
+      <button type="reset">Clear</button>
+        </fieldset>
+    </form>
+</body>
+</html>
